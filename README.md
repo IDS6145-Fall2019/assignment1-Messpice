@@ -55,7 +55,7 @@ Observing and analyzing the pedestrian behavior patterns and the system performa
 
 
 ## (Part 1.4) Subway City (My Problem) Model **(10%)**
-[**Code template**](code/README.md) - Starting coding framework for the (insert your exact problem here.)
+[**Escalator model**](code/POTS_system/escalator_object.py) - Starting coding framework for the escalator model.
 You are expected to create the python files - the code should run without errors, create and object(s) for your system, but not provide function detail.
 
 
