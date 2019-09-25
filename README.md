@@ -1,5 +1,5 @@
 # Assignment 1 - Designing Models and Analyzing Data (Template)
-(remove: **text between brackets to be removed**)
+
 
 > * Participant name: (Vanessa Thompson)
 > * Project Title: (Moving Escalator: Can We Get there Faster?)
@@ -15,11 +15,10 @@ The second part of the assignment explores data analysis. Data analysis and visu
 
 # Part 1: Designing a Model - Subway System
 
-(remove: States your motivation clearly: why is it important / interesting to solve this problem?)
 
-(remove: Add real-world examples, if any)
+The yearly influx of individuals visiting and/or commuting underground transportations has vastly increased for major cities around the world. For instances, the city of London, England has experienced for the past few years record-breaking numbers of both visitors and new residents, in addition to existing residents to it’s already overcrowded transportation systems (Erianger, 2016). That is the case for London’s Underground subway stations, which currently not only experiencing more frequent over-crowdedness but also an increase in annual ridership (2016). Thus analyzing the usages and over-reliance on transporting systems such as escalators are essential to understand areas in which these types of public facilities can reduce problematic issues such as over-crowdedness. One aspect concerning the usage of escalators within London’s Underground stations is observing and understanding behavior patterns of pedestrians and their traffic flow. This study will analyzes these pedestrians’ behavior patterns and their relationship with the system performance of the escalators. It is to the benefit of all pedestrians and the Underground subway operators and workers to study ways of enhancing the traveling experiences/usages of subway escalators that could establish organization in the subway traffic flow, augment safety measures and improve the timing flow of pedestrians moving hypothetically from point A to point B. 
 
-(remove: Put the problem into a historical context, from what does it originate? Are there already some proposed solutions?)
+Erianger, S. (2016). A London subway experiment: Please don’t walk up the escalator. Retrieved from http://www.nytimes.com/2016/06/13/world/europe/a-london-subway-experiment-please-dont-walk-up-the-escalator.html
 
 
 ![Image of Subway City System](images/subway_model.png)
@@ -27,10 +26,12 @@ The second part of the assignment explores data analysis. Data analysis and visu
 ## (Part 1.1): Requirements (Experimental Design) **(10%)**
 
 When using escalators, many pedestrians may form a pattern of stepping onto every step or every other step. They may also hesitate upon boarding the first step or approach the escalator in an urgent manner than other pedestrians and may want to bypass those ahead of them. Such behavior however may attribute to the increasing rate of bottlenecking at the entrance opening of the escalators. To help the need of pedestrian users in their traffic flow movements, this study aims to observer the effect of constructing order to pedestrians’ behavior patterns. A set of requirements pertaining to this system shall specify that:
+
 For pedestrian: 
 •	Users need to move from one destination to the next in a timely manner
 •	Users need to move in an orderly fashion
 •	Every other step shall have two occupants traveling on it
+
 For Escalator system:
 •	Have the capacity to operate/perform to its maximum conditions
 •	Have the capacity to perform to its optimal running speed towards its intended direction (going up)
@@ -63,7 +64,9 @@ You are expected to create the python files - the code should run without errors
 
 
 While using every other step may seem to be wasting extra space, we are also optimizing as much private space for pedestrian. By having pedestrian side-by-side as oppose to directly behind one another, we not only provide upper body- face forward space per pedestrian but also allow extra (however little) time at the boarding entrance for any pedestrian hesitating to make the first step and limit time wasting. The idea is to answer the research question: Is it possible to organize pedestrians to ride the escalator two-per-step as they board every other step in the pursuit of reducing their waiting time, the size of any congestion upon boarding, and increase the number ratio of pedestrian using the escalator per minute? 
+
 Compare to one pedestrian on each step, it is hypothesized that pedestrian will have a shorter waiting time and travel faster when two per every other step is utilized. Two experiments will be conducted: (1) pedestrians travel escalator one per step; (2) pedestrians travel side-by-side every other step. The independent variables are the number of pedestrian per step, and the usage of every and every other step. Dependent variables will be the amount of waiting time boarding the escalator and the amount of pedestrian exiting the escalator per minute. Moreover, the experimental group is individuals using the subway station. 
+
 It is important to capture the average mean of the pedestrian waiting time and the amount of pedestrian exiting the escalator for each experiment. Analyzing these data will help draw inferences concerning the output of the simulation. A multi-bar chart can be used to visualize the timing flow of pedestrian waiting at the entrance and the amount exiting after riding the escalator, in respect to their independent group. This chart graph can be part of a bigger infographic display depicting two images representing the two different travel patterns of escalators (i.e. one person each step or two per every other step). In addition to the multi-bar, pie charts will be use to highlight the relationship between results in each independent group and also between them.
 
 
