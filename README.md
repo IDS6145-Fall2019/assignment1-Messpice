@@ -44,10 +44,10 @@ For Escalator system:
 (remove: add a high-level overview of your model, the part below should link to the model directory markdown files)
 (remove: Look at the [**Object Diagram**](model/object_diagram.md) for how to structure this part of Part 2 for each diagram. Only the Object diagram has the template, the rest are blank. )
 
-* [**Object Diagram**](model/object_diagram.md) - provides the high level overview of components
-* [**Class Diagram**](model/class_diagram.md) - provides details of (what are you providing details of)
-* [**Behavior Diagram**](model/behavior_diagram.md) - provides details of (what are you providing details of)
-* [**Agent / User case** (if appropriate)](model/agent_usecase_diagram.md) - provides details of (what are you providing details of)
+* [**Object Diagram**](model/objectdiagram.jpg) - provides the high level overview of components
+* [**Class Diagram**](model/classdiagram.jpg) - provides details of (what are you providing details of)
+* [**Behavior Diagram**](model/sequencediagram.jpg) - provides details of (what are you providing details of)
+* [**Agent / User case** (if appropriate)](model/usediagram.jpg) - provides details of (what are you providing details of)
 
 ## (Part 1.3) Subway (My Problem) Simulation **(10%)**
 
@@ -75,7 +75,7 @@ It is important to capture the average mean of the pedestrian waiting time and t
 
 ## (Part 2.1) **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model **(10%)**
 Here [**we provide an overview**](code/POTS_system/README.md) of the **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model and provide a source code template for the code found in  [**the following folder**](code/POTS_system/). Please create a **class** diagram of this model (replace the placeholder diagram). (you can use paper and pencil or a digital tool).
-POTS.jpg
+[POTS](model/POTS.jpg)
 
 
 
