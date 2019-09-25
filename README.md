@@ -1,8 +1,8 @@
 # Assignment 1 - Designing Models and Analyzing Data (Template)
 (remove: **text between brackets to be removed**)
 
-> * Participant name: (your name)
-> * Project Title: (Title of the problem you are looking and modeling)
+> * Participant name: (Vanessa Thompson)
+> * Project Title: (Moving Escalator: Can We Get there Faster?)
 
 # General Introduction
 
@@ -26,7 +26,17 @@ The second part of the assignment explores data analysis. Data analysis and visu
 
 ## (Part 1.1): Requirements (Experimental Design) **(10%)**
 
-(remove: You should start by specifying a set of requirements. I specified a topic a Subway escalator. What exactly does that mean - practice formulating your own set of requirements and an experiment. Define problems cities face and hypothesize how a subway system could help alleviate these issue. This helps you think about your problem communication and system objectives inputs, functions, and outputs - they should be clearly specified.)
+When using escalators, many pedestrians may form a pattern of stepping onto every step or every other step. They may also hesitate upon boarding the first step or approach the escalator in an urgent manner than other pedestrians and may want to bypass those ahead of them. Such behavior however may attribute to the increasing rate of bottlenecking at the entrance opening of the escalators. To help the need of pedestrian users in their traffic flow movements, this study aims to observer the effect of constructing order to pedestrians’ behavior patterns. A set of requirements pertaining to this system shall specify that:
+For pedestrian: 
+•	Users need to move from one destination to the next in a timely manner
+•	Users need to move in an orderly fashion
+•	Every other step shall have two occupants traveling on it
+For Escalator system:
+•	Have the capacity to operate/perform to its maximum conditions
+•	Have the capacity to perform to its optimal running speed towards its intended direction (going up)
+•	Be able to quietly and smoothly operate constantly and efficiently during the hours of operations
+•	Shall have moving speed of conveyor stairs equaling to moving speed of handrails.
+
 
 ## (Part 1.2) Subway (My Problem) Model **(10%)**
 
@@ -40,7 +50,7 @@ The second part of the assignment explores data analysis. Data analysis and visu
 
 ## (Part 1.3) Subway (My Problem) Simulation **(10%)**
 
-(remove: Describe how you would simulate this - including type of simulation, rough details, inputs, outputs, and how it will help you analyze your experimental hypothesis, or nullify your null hypothesis.)
+Observing and analyzing the pedestrian behavior patterns and the system performance of the escalator can incorporate the usage of all three types of simulations (continuous-based, discrete-event, and agent-based) due to both the static and dynamic natures of the escalator systems. With the use of AnyLogic, we can first establish agent-based aspects to emphasis behavior patterns of pedestrian. However, we can add the agent-based aspect to a discrete-event approach. This approach would be most optimal to simulate the pattern from studying how by having two pedestrian board every other escalator step, we may (1) increase the moving amount of pedestrian between the entrance and exit per minute, (2) reduce the size of congestion at the boarding entrance, and thus (3) reduce the waiting time for pedestrians moving from one point to the next.
 
 
 ## (Part 1.4) Subway City (My Problem) Model **(10%)**
@@ -51,13 +61,10 @@ You are expected to create the python files - the code should run without errors
 
 ## (Part 1.5) Specifying the Inputs to a System **(10%)**
 
-(remove the below points once ideas are satisfied)
-* Specify the independent and dependent input variables of your subway esclator model
-* Specify where the data will come from measured subset of real data (empirical) or synthetic data
-* What kind of statistics are important to capture this input data
-* How do you plan to analyze the output of your model?
-* What ways will you visualize your data - charts, and graphs you will create?
-* What clever way will you visualize your output with a useful infographic?
+
+While using every other step may seem to be wasting extra space, we are also optimizing as much private space for pedestrian. By having pedestrian side-by-side as oppose to directly behind one another, we not only provide upper body- face forward space per pedestrian but also allow extra (however little) time at the boarding entrance for any pedestrian hesitating to make the first step and limit time wasting. The idea is to answer the research question: Is it possible to organize pedestrians to ride the escalator two-per-step as they board every other step in the pursuit of reducing their waiting time, the size of any congestion upon boarding, and increase the number ratio of pedestrian using the escalator per minute? 
+Compare to one pedestrian on each step, it is hypothesized that pedestrian will have a shorter waiting time and travel faster when two per every other step is utilized. Two experiments will be conducted: (1) pedestrians travel escalator one per step; (2) pedestrians travel side-by-side every other step. The independent variables are the number of pedestrian per step, and the usage of every and every other step. Dependent variables will be the amount of waiting time boarding the escalator and the amount of pedestrian exiting the escalator per minute. Moreover, the experimental group is individuals using the subway station. 
+It is important to capture the average mean of the pedestrian waiting time and the amount of pedestrian exiting the escalator for each experiment. Analyzing these data will help draw inferences concerning the output of the simulation. A multi-bar chart can be used to visualize the timing flow of pedestrian waiting at the entrance and the amount exiting after riding the escalator, in respect to their independent group. This chart graph can be part of a bigger infographic display depicting two images representing the two different travel patterns of escalators (i.e. one person each step or two per every other step). In addition to the multi-bar, pie charts will be use to highlight the relationship between results in each independent group and also between them.
 
 
 
