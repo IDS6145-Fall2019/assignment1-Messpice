@@ -95,7 +95,7 @@ Erianger, S. (2016). A London subway experiment: Please don’t walk up the esca
 
 This portion of the assignment looks at generating random numbers in Python and understanding how to properly plot them. Plot two different random numbers, pseudo random and quasi random, for five different N values. There should be 10 subplots, all properly formatted 2D plots. Note, each of the N points will have two coordinates, an x and a y, therefore you will need to generate two random numbers for each point. You should replace the image with your results in a simalar format. Discuss how the patterns differ. Feel free to change the N values from the suggested N values in the image to state your case.
 
-![Image of 2d template City](images/2Dtemplate.png)
+![Image of 2d template City](images/2Dtemplate.png)(images/pseudo N100.png)(images/pseudo N500.png)(images/pseudo N1000.png)(images/pseudo N2500.png)(images/pseudo N5000.png)
 
 
 ## (Part 3.3) -  Plotting 1D Random Distributions **(15%)**
